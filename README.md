@@ -1,6 +1,7 @@
 # linux-setup-tool
 
 **Author:** Martin Bauernschmitt
+
 **License:** BSD 3-clause
 
 
