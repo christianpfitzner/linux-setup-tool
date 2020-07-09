@@ -4,7 +4,13 @@
 NAME='Max Mustermann'
 E_MAIL='max.mustermann@muster.de'
 
+dialog --backtitle "$(echo abc)" --title "$(cat file)" ...
+
+
+wait
+
 # Print welcome screen
+
 echo "************************************************************"
 echo "Martins Linux Setup and Environment Congfiguration tool"
 echo "------------------------------------------------------------"
