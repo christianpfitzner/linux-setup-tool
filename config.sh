@@ -129,4 +129,13 @@ case $radio_selection in
           ;;
 esac
 
+echo ""
+echo ""
 
+echo ""
+echo ""
+echo "************************************************************"
+echo "Finished -> Have fun you lazy software stuff programming guy "
+echo "************************************************************"
+echo ""
+echo "" 
