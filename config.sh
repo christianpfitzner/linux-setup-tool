@@ -68,7 +68,8 @@ case $radio_selection in
         echo "--> clangd-10"
 
         apt install -y build-essential gdb cmake git libsocketcan-dev can-utils \
-                clang-10 clang-format-10 clang-tidy-10 clangd-10
+                clang-10 clang-format-10 clang-tidy-10 clangd-10 \
+                octave octave-signal octave-quaternion
         echo ""
         echo ""
         echo "--> Updating clangd"
@@ -131,11 +132,23 @@ case $radio_selection in
         echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
         source ~/.bashrc
         apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
-        apt install python-rosdep
+        apt install python-rosdep 
         rosdep init
    ;; 
      Latex)
           echo "Very funny..."
+          ;; 
+
+     DeepLearning)
+
+
+          echo "Very funny..."
+          cd /tmp
+
+          # install conda
+          wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+          
+
           ;; 
      *)
           echo "Hmm, seems i've never used it."
